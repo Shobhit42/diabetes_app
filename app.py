@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 import pickle
 import numpy as np
 
-model = pickle.load(open('model4.pkl', 'rb'))
+model = pickle.load(open('model8.pkl', 'rb'))
 #scaler = pickle.load(open('scaler11.pkl', 'rb'))
 
 
